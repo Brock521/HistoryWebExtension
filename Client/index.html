@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <script src="index.js"></script>
+</head>
+    
+<body>
+    <div id="mainpanel">
+        <div id="sidebar">
+            <fieldset id="filteritemscategory">
+                <legend>Columns</legend>
+                <label for="url"><input class="filter inline" id="url" name="filter" type="checkbox" checked>Url</label>
+                <label for="title"><input class="filter inline" id="title" name="filter" type="checkbox" checked >Title</label>
+                <label for="starttime"><input class="filter inline" id="startTime" name="filter" type="checkbox" checked>Last Start Time</label>
+                <label for="endtime"><input class="filter inline" id="endTime" name="filter" type="checkbox" checked>Last End Time</label>
+                <label for="lastaccessed"><input class="filter inline" id="lastAccessed" name="filter" type="checkbox" checked>Last Accessed</label>
+                <label for="timesaccessed"><input class="filter inline" id="timesAccessed" name="filter" type="checkbox" checked>Times Accessed</label>
+                <button id="refresh">Refresh Table</button>
+            </fieldset>
+           
+        </div>
+        <div id="historypanel">
+            <table id="historytable"></table>
+
+
+
+        </div>
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,15 @@
+I have set up the get request on the server so need to call if on the client and display the data
+
+I think we should try and do single entries instead of updating the existing one
+This makes it easier to track times accessed and total duration
+This should be pretty each to fix on the backend by adjusting the schema
+
+Also note...Use the uid for the id NOT THE EXTENSION ID
+
+Have lost some tab info previously but note sure why...id was in the response before post
+and removed from the buffer and not sent. So there must be some async issue
+
+A few things to consider right now. Clicking a filter button will reset the sorted
+column which may be fine rightnow. Also I need to reset the old button symbols when a new sort button is clicked
+
+We can add average session length, last session length
